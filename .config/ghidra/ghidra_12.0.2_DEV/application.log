@@ -1,0 +1,57 @@
+2026-02-05 22:57:24 INFO  (LoggingInitialization) Using log config file: jar:file:/usr/share/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-02-05 22:57:24 INFO  (LoggingInitialization) Using log file: /home/quanganh/.config/ghidra/ghidra_12.0.2_DEV/application.log  
+2026-02-05 22:57:24 INFO  (Preferences) Loading user preferences: /home/quanganh/.config/ghidra/ghidra_12.0.2_DEV/preferences  
+2026-02-05 22:57:28 INFO  (ClassSearcher) Searching for classes...  
+2026-02-05 22:57:29 INFO  (ClassSearcher) Class search complete (819 ms)  
+2026-02-05 22:57:29 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-02-05 22:57:29 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-02-05 22:57:29 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-02-05 22:57:29 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-02-05 22:57:29 INFO  (GhidraRun) User quanganh started Ghidra.  
+2026-02-05 22:57:29 INFO  (GhidraRun) User settings directory: /home/quanganh/.config/ghidra/ghidra_12.0.2_DEV  
+2026-02-05 22:57:29 INFO  (GhidraRun) User temp directory: /tmp/quanganh-ghidra  
+2026-02-05 22:57:29 INFO  (GhidraRun) User cache directory: /home/quanganh/.cache/ghidra  
+2026-02-05 22:57:29 DEBUG (DefaultProjectManager) No tools found; Installing default tools  
+2026-02-05 22:57:29 DEBUG (DefaultProjectManager) 	no recent project directories found  
+2026-02-05 22:57:30 DEBUG (RecoverySnapshotMgrPlugin) Recovery snapshot timer set to 5 minute(s)  
+2026-02-05 22:57:30 ERROR (SwingExceptionHandler) Error: Uncaught Exception! 
+IllegalArgumentException - view is invalid java.lang.IllegalArgumentException: view is invalid
+	at javax.help.search.MergingSearchEngine.merge(MergingSearchEngine.java:91)
+	at javax.help.JHelpSearchNavigator.merge(JHelpSearchNavigator.java:168)
+	at javax.help.plaf.basic.BasicSearchNavigatorUI.addSubHelpSets(BasicSearchNavigatorUI.java:275)
+	at javax.help.plaf.basic.BasicSearchNavigatorUI.reloadData(BasicSearchNavigatorUI.java:225)
+	at javax.help.plaf.basic.BasicSearchNavigatorUI.installUI(BasicSearchNavigatorUI.java:174)
+	at java.desktop/javax.swing.JComponent.setUI(JComponent.java:740)
+	at javax.help.JHelpNavigator.setUI(JHelpNavigator.java:257)
+	at help.CustomSearchView$CustomHelpSearchNavigator.setUI(CustomSearchView.java:52)
+	at javax.help.JHelpNavigator.updateUI(JHelpNavigator.java:276)
+	at javax.help.JHelpNavigator.<init>(JHelpNavigator.java:105)
+	at javax.help.JHelpSearchNavigator.<init>(JHelpSearchNavigator.java:66)
+	at help.CustomSearchView$CustomHelpSearchNavigator.<init>(CustomSearchView.java:47)
+	at help.CustomSearchView.createNavigator(CustomSearchView.java:37)
+	at javax.help.JHelp.setupNavigators(JHelp.java:148)
+	at javax.help.JHelp.<init>(JHelp.java:126)
+	at javax.help.WindowPresentation.createJHelp(WindowPresentation.java:853)
+	at javax.help.WindowPresentation.createHelpWindow(WindowPresentation.java:889)
+	at help.GHelpBroker.updateWindowSize(GHelpBroker.java:335)
+	at help.GHelpBroker.setDisplayed(GHelpBroker.java:160)
+	at docking.help.HelpManager.displayHelp(HelpManager.java:474)
+	at docking.help.HelpManager.showHelp(HelpManager.java:260)
+	at ghidra.framework.main.FrontEndTool.checkWhatsNewPreference(FrontEndTool.java:838)
+	at ghidra.framework.main.FrontEndTool.setVisible(FrontEndTool.java:631)
+	at ghidra.GhidraRun.openProject(GhidraRun.java:194)
+	at ghidra.GhidraRun.lambda$launch$0(GhidraRun.java:95)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+ 

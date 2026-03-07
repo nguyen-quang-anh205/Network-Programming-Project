@@ -1,0 +1,131 @@
+# Common recent settings file for Wireshark 4.6.3.
+#
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /home/quanganh/Documents/1215.pcapng
+recent.capture_file: /home/quanganh/Documents/1617.pcapng
+
+######## Recent capture filters (latest first), cannot be altered through command line ########
+
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: http
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 96
+gui.geometry_main_y: 35
+gui.geometry_main_width: 960
+gui.geometry_main_height: 768
+
+# Main window maximized.
+# true or false (case-insensitive).
+gui.geometry_main_maximized: false
+
+# Main window geometry state.
+# Hex byte string.
+gui.geometry_main: 01d9d0cb0003000000000060000000230000042900000346000000650000004200000424000003410000000000000000050000000065000000420000042400000341
+
+# Leftalign Action Buttons.
+# true or false (case-insensitive).
+gui.geometry_leftalign_actions: false
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# Number of packets or events to check for automatic profile switching.
+# Decimal number. Zero disables switching.
+#gui.profile_switch_check_count: 1000
+
+# Warn if running with elevated permissions (e.g. as root).
+# true or false (case-insensitive).
+privs.warn_if_elevated: true
+
+# Warn if Wireshark is unable to capture.
+# true or false (case-insensitive).
+sys.warn_if_no_capture: true
+
+# Find packet search in.
+# One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
+gui.search_in: PACKET_LIST
+
+# Find packet character set.
+# One of: NARROW_AND_WIDE, NARROW, WIDE
+gui.search_char_set: NARROW_AND_WIDE
+
+# Find packet case sensitive search.
+# true or false (case-insensitive).
+gui.search_case_sensitive: false
+
+# Find packet search reverse direction.
+# true or false (case-insensitive).
+gui.search_reverse_dir: false
+
+# Find packet search multiple occurrences.
+# true or false (case-insensitive).
+gui.search_multiple_occurs: false
+
+# Find packet search type.
+# One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
+gui.search_type: DISPLAY_FILTER
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 531
+gui.geom.PacketDialog.y: 301
+gui.geom.PacketDialog.width: 600
+gui.geom.PacketDialog.height: 440
+# true or false (case-insensitive).
+gui.geom.PacketDialog.maximized: false
+# Qt Geometry State (hex byte string).
+gui.geom.PacketDialog.qt_geometry: 01d9d0cb00030000000002130000012d0000047400000308000002180000014c0000046f0000030300000000000000000500000002180000014c0000046f00000303
+
+# Geometry and maximized state of ManufDialog window.
+# Decimal integers.
+gui.geom.ManufDialog.x: 379
+gui.geom.ManufDialog.y: 158
+gui.geom.ManufDialog.width: 503
+gui.geom.ManufDialog.height: 394
+# true or false (case-insensitive).
+gui.geom.ManufDialog.maximized: false
+# Qt Geometry State (hex byte string).
+gui.geom.ManufDialog.qt_geometry: 01d9d0cb000300000000017b0000009e0000037b0000024b00000180000000bd00000376000002460000000000000000050000000180000000bd0000037600000246
+
+# Geometry and maximized state of CredentialsDialog window.
+# Decimal integers.
+gui.geom.CredentialsDialog.x: 313
+gui.geom.CredentialsDialog.y: 128
+gui.geom.CredentialsDialog.width: 634
+gui.geom.CredentialsDialog.height: 454
+# true or false (case-insensitive).
+gui.geom.CredentialsDialog.maximized: false
+# Qt Geometry State (hex byte string).
+gui.geom.CredentialsDialog.qt_geometry: 01d9d0cb000300000000013900000080000003bc000002690000013e0000009f000003b700000264000000000000000005000000013e0000009f000003b700000264
+
+# Geometry and maximized state of Lua Console window.
+# Decimal integers.
+gui.geom.Lua Console.x: 332
+gui.geom.Lua Console.y: 140
+gui.geom.Lua Console.width: 596
+gui.geom.Lua Console.height: 430
+# true or false (case-insensitive).
+gui.geom.Lua Console.maximized: false
+# Qt Geometry State (hex byte string).
+gui.geom.Lua Console.qt_geometry: 01d9d0cb000300000000014c0000008c000003a90000025d00000151000000ab000003a4000002580000000000000000050000000151000000ab000003a400000258
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"
