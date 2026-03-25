@@ -4,7 +4,7 @@
 
 * **Programming Language:** Python 3
 * **Standard Libraries Used:** `socket`, `struct`, `time`, `colorama` (for terminal output formatting)
-* **Operating System Tested:** Linux (Kali Linux / Ubuntu-based distributions)
+* **Operating System Tested:** Debian 
 * **Network Protocol:** UDP over IPv4 (Localhost `127.0.0.1`)
 
 ---
