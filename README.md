@@ -48,7 +48,7 @@ The system is capable of constructing raw DNS queries manually, communicating wi
 ## 5. Project Structure
 
     Network-Programming-Project/
-    ├── server.py        # Main DNS Resolver & Cache Server script
+    ├── resolver_server.py        # Main DNS Resolver & Cache Server script
     ├── client.py        # Interactive DNS Client script
     └── README.md        # Project Documentation
 
